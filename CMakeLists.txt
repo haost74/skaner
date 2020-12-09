@@ -12,7 +12,7 @@ include_directories(${SQLITE3_INCLUDE_DIRS})
 
 
 add_executable(skaner 
-    src/main.cpp
+    src/main.cpp src/sqlRequire/sqlRequire.cpp
 )
 #target_link_libraries (${OUT_TARGET} ${SQLite3_LIBRARIES})
 target_link_libraries(skaner
